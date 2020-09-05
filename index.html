@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <link rel="stylesheet" href="css.css">
+
+	<script src="ml5.js" type="text/javascript"></script>
+
+  <title>Document</title>
+</head>
+<body>
+<div id="wrapper">
+  <div id="container">
+    <nav>
+      <ul>
+        <li id='nav_logo'><img id='logo' src="icons/ai.png" alt=""></li>
+        <li id='about'>About +</li>
+      </ul>
+    </nav>
+    <div id="app">
+      <section>
+        <img id='img_show' src="" height="200" alt="Image preview...">
+        <input id='UPL' type="file" onchange="previewFile()" style="display:none;" accept="image/*">
+        <label id='LUPL' for="UPL">Select a pic +</label>
+      </section>
+      <div id="result">Detecting...</div>
+      <i><img src="icons/lazo.png" alt="" id="icon"></i>
+    </div>
+  </div>
+</div>
+
+<div id="card_wrapper">
+  <div id="card_about">
+    <nav id='Close'>
+      <i><img src="icons/close.png" alt="" id="icon_close"></i>
+    </nav>
+    <div id="card_container">
+      <p>Created by <a target="_blank" href="https://www.linkedin.com/in/dguzmanmichael/">Michael Guzmán</a></p>
+      <div id="info">
+        <p><a target="_blank" href="https://ml5js.org/">API</a></p>
+        <p><a target="_blank" href="https://www.flaticon.com/authors/freepik" title="Freepik">Icons</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<script src="js.js"></script>
+</body>
+</html>
